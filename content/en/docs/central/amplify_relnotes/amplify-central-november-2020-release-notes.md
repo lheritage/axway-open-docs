@@ -1,5 +1,7 @@
 ---
 title: AMPLIFY Central November 2020 Release Notes
+linktitle: AMPLIFY Central November 2020
+weight: 90
 description: AMPLIFY Central enables the user to manage their provider /
   consumer view. For more information, see the AMPLIFY Central documentation.
 ---
