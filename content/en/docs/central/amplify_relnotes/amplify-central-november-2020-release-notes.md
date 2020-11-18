@@ -32,12 +32,12 @@ The AMPLIFY Central CLI includes the following enhancements:
     * `CONNECTED` when discovery agent is up and running.
     * `CONNECTION ERROR` when the discovery agent is not able to connect to the Gateway
     * `DISCONNECTED` when the discovery agent is down
-* Improved Provider UX for the Environment details page to include: 
+* Improved Provider UX for the Environment details page to include:
     * Activity report metrics of the aggregated count of API Services, Catalog Items and Subscriptions for the selected Environment.  
-* Improved Provider UX of the API Service details page to include: 
-    * View of multiple API Service Versions. 
+* Improved Provider UX of the API Service details page to include:
+    * View of multiple API Service Versions.
     * Activity report metrics of the related Endpoints, Catalog Items and Subscriptions for the selected API Service version.  
-    * Rendering of WSDL and PROTOBUF specifications in addition to OAS2/OAS3. 
+    * Rendering of WSDL and PROTOBUF specifications in addition to OAS2/OAS3.
 
 ### Axway Edge Gateway / AWS / Azure Agents
 
