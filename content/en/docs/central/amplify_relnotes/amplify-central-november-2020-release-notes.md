@@ -23,6 +23,11 @@ The AMPLIFY Central CLI includes the following enhancements:
 
 * Support EU region while installing agents.
 * installation of AWS agent: it output the command to be given to AWS CLI to install the agent in AWS environment (EC2 instance or ECS-fargate instance).
+* AMPLIFY CLI login using `amplify auth login` without the need for "--client-id" parameter.  The defaults to use the AMPLIFY Central credentials ("--client-id=apicentral").
+* Ability to get resources by name where the name of the resource can exist across multiple scopes. The result of the command has been enhanced to display multiple tables with the resource kind prefixed to the name of the resource to improve readability.
+    * Example 1:  "amplify central get secret test" will return secret resources named "test" from all environments or integration root scopes.
+    * Example 2:  "amplify central get secret –s test" will return secret resources from an environment and/or integration named "test".
+    * Example 3:  "amplify central get webhook,secret –s test" will return webhook/secret  resources from an environment and/or integration named "test".
 
 ### AMPLIFY Central WebUI
 
