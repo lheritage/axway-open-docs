@@ -13,7 +13,7 @@ The following new features and enhancements are available in this update.
 
 The AMPLIFY Central CLI is a package for managing AMPLIFY Central resources with a DevOps approach to API Management.
 
-AMPLIFY Central CLI version 0.1.18 is now available on NPM (<https://www.npmjs.com/package/@axway/amplify-central-cli/v/0.1.18>)
+AMPLIFY Central CLI version 0.1.19 is now available on NPM (<https://www.npmjs.com/package/@axway/amplify-central-cli/v/0.1.19>)
 
 The CLI extension is compatible **only** with the AMPLIFY CLI **version 1.4** (<https://www.npmjs.com/package/@axway/amplify-cli/v/1.4.0>)
 
