@@ -44,15 +44,14 @@ The AMPLIFY Central CLI includes the following enhancements:
     * Activity report metrics of the related Endpoints, Catalog Items and Subscriptions for the selected API Service version.  
     * Rendering of WSDL and PROTOBUF specifications in addition to OAS2/OAS3.
 
-### Axway Edge Gateway / AWS / Azure Agents
+### Axway Edge Gateway / AWS Agents
 
-In order to provide a better visibility of your mutli-type gateway eco system, two sets of agents are provided. agenbts
+In order to provide a better visibility of your mutli-type gateway eco system, two sets of agents are provided. These agents collect data from the Gateway (API / traffic) and expose them in AMPLIFY Central, giving you a global vision of your eco system from a single interface.
 
 The agents includes the following enhancements:
 
-* A new discovery agent for Azure Gateway with same capabilities as other discovery agent (Edge / AWS).
-* Default behavior when subscribing is now to create unique credentials for each consumer (API Key / oauth credentials).
-* Discovery agent handles log rotation/retention.
+* Default behavior when subscribing is now to create unique credentials for each consumer (API Key / oauth credentials). Refer to [Subscription workflow](/docs/central/connect-api-manager/subscription-for-the-consumer/)
+* Discovery agent handles log rotation/retention. Refer to [logging variables](/docs/central/connect-api-manager/agent-variables)
 
 ### Mesh governance
 
