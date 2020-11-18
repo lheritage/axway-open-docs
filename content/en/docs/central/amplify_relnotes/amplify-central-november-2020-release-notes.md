@@ -56,7 +56,7 @@ The agents includes the following enhancements:
 
 ### Mesh governance
 
-AMPLIFY Central mesh governance enables you to govern and manage your APIs, public and private services, along with the hybrid environments where they are located. 
+AMPLIFY Central mesh governance enables you to govern and manage your APIs, public and private services, along with the hybrid environments where they are located.
 
 No new update
 
