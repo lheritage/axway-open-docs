@@ -56,15 +56,16 @@ The agents includes the following enhancements:
 
 ### Mesh governance
 
-The Mesh governance includes the following enhancements:
+AMPLIFY Central mesh governance enables you to govern and manage your APIs, public and private services, along with the hybrid environments where they are located. 
 
-* ...
+No new update
 
 #### Fixed issues
 
 * Previously, within AMPLIFY Central CLI 0.1.17 version, when installing service account with a wrong name, the CLI froze. Now, a proper message is displayed to help the user understand the error.
 * Previously, when a subscription fails, no email were sent to the subscriber by the discovery agent. Now, the email is sent and contains the reason of failure.
 * Previously, when an API has not the PUBLISHED status, a consumer can start the subscription. Now, only PUBLISHED status API enables a consumer to subscribe to it.
+* The Central CLI results listing for the Mesh Discovery resources now indicates the correct SCOPE and SCOPE NAME the resources are related to.
 
 ### Known limitations
 
